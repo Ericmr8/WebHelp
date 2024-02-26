@@ -1,14 +1,12 @@
-
-
 [data-theme="light"] {
-    --primary: #2c2c2c;
+    --primary: #000;
     --background: #fff;
-    --text: #000;
+    --text: #2c2c2c;
 }
 
 [data-theme="dark"] {
-    --primary: #2c2c2c;
-    --background: #000;
+    --primary: #000;
+    --background: #2c2c2c;
     --text: #fff;
 }
 
@@ -21,12 +19,15 @@ body {
     color: var(--text);
     background-color: var(--background);
     font-family: 'Comfortaa';font-size: 22px;
-    margin: 0;
+    margin: 1em;
 }
 
 h1 {
     color: #fff;
-    margin: 0;
+}
+
+h2 {
+    margin-left: 2em;
 }
 
 header {
@@ -34,15 +35,12 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary);
-    padding: 5px 10px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
+    padding: 10px;
 }
 
 article {
-    margin-top: 20px;
+    display: block;
+
 }
 
 button {
@@ -58,13 +56,29 @@ button {
 
 main {
     position: relative;
-    top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 #Logo {
-    width: 6em;
+    width: 5em;
     border: 0;
     height: 4em;
+    margin-left: 1em;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#Logo :hover {
+    -webkit-box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
 }
 
 .switch {
@@ -105,7 +119,13 @@ main {
     transition: .9s;
     border-radius: 56px;
 }
-  
+
+#Telefono {
+    width: 30px;
+}
+
+
+
 input:checked + .deslizador {
     background-color: var(--background);
 }
