@@ -18,7 +18,8 @@
 body {
     color: var(--text);
     background-color: var(--background);
-    font-family: "Outfit";font-size: 22px;
+    font-family: "Outfit"; 
+    font-size: 22px;
 
 }
 
@@ -31,7 +32,7 @@ h2 {
 }
 
 header {
-    background-image: url(/img/Fondo\ cuadrados\ raros.png);
+    background-color: var(--primary);
     background-size: 1400px 185px;
     position: static;
     left: 0;
@@ -54,14 +55,31 @@ button {
 main {
     position: relative;
     display: flex;
-    justify-content: space-between;
     margin: 1em
 }
 
-article {
-    display: flex;
+section {
+    width: 70%;
+    height: auto;
+    background-color: maroon;
+
+
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1em 0 1em 0;
+    font-size: 16px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
 
 #Caja-borrosa {
     backdrop-filter: blur(3px);
@@ -71,7 +89,7 @@ article {
     padding: 5px 10px;
 }
 
-#Logo {
+.Logo {
     width: 5em;
     border: 0;
     height: 4em;
@@ -80,7 +98,7 @@ article {
     margin-bottom: 3px;
 }
 
-#Logo :hover {
+#Pagina-Inicial :hover {
     -webkit-box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
     -moz-box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
     box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
@@ -130,7 +148,10 @@ article {
 #QuienesSomos {
     display: table;
     align-items: flex-start;
-    width: 70%;
+}
+
+#Lado {
+    margin-left: 2em;
 }
 
 #Numero {
@@ -150,13 +171,28 @@ article {
     display: block;
     background-color: gray;
 }
-hr {
+#hr {
     transform: rotate(90deg);
     width: 13em;
     position: relative;
     border: 5px solid white;
-    top: -5.98em;
-    left: 6.49em;
+    top: -6.13em;
+    left: 8.49em;
+}
+
+#Derechos1 {
+    display: block;
+}
+
+#Derechos {
+    display: inherit;
+    width: 4em;
+    position: relative;
+}
+
+header hr{
+    background-color: var(--background);
+    border: var(--text) solid 2px;
 }
 
 input:checked + .deslizador {
