@@ -175,7 +175,7 @@ footer > a {
     transform: rotate(90deg);
     width: 13em;
     position: relative;
-    border: 5px solid white;
+    border: 5px solid var(--text);
     top: -6.13em;
     left: 8.49em;
 }
