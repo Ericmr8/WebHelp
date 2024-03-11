@@ -59,11 +59,8 @@ main {
 }
 
 section {
-    width: 70%;
+    width: 80%;
     height: auto;
-    background-color: maroon;
-
-
 }
 
 footer {
@@ -155,38 +152,36 @@ footer > a {
 }
 
 #Numero {
-    display: flex;
-    align-items: flex-start;
-    background-color: gray;
     margin: 0;
     height: 250px;
 }
 
 .Contactos {
     width: 50px;
-
 }
 
 #Contactanos {
     display: block;
-    background-color: gray;
 }
 #hr {
     transform: rotate(90deg);
     width: 13em;
     position: relative;
     border: 5px solid var(--text);
-    top: -6.13em;
-    left: 8.49em;
+    top: -7.13em;
+    left: -7.29em;
 }
 
 #Derechos1 {
-    display: block;
+    position: relative;
+    top: 5em;
+    left: 57em;
+    height: 0px;
 }
 
 #Derechos {
     display: inherit;
-    width: 4em;
+    width: 3em;
     position: relative;
 }
 
@@ -203,4 +198,19 @@ input:checked + .deslizador:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+}
+
+aside {
+    position: fixed;
+    left: 52em;
+}
+
+
+#Tel {
+    position: relative;
+    margin-top: 1em;
+}
+#Ins {
+    position: relative;
+    margin-top: 1em;
 }
