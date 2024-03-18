@@ -65,7 +65,8 @@ section {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-items: start;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     color: white;
@@ -213,4 +214,10 @@ aside {
 #Ins {
     position: relative;
     margin-top: 1em;
+}
+.menu{
+    display: inline;
+    color: white;
+    padding: 10px;
+    
 }

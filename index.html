@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebHelp</title>
-    <link href="/css/css - WebHelp.css" rel="stylesheet">
+    <link href="./css/css - WebHelp.css" rel="stylesheet">
     <script src="./js/js.js" type="text/javascript" defer></script>
     <script src="/Fondo-Quienes-Somos.js"></script>
     
@@ -18,6 +18,12 @@
     <header>
         <div id="Caja-borrosa">
             <a href="./index.html" id="Pagina-Inicial"><img src="./img/Logo A1.png" alt="Logo WebHelp" class="Logo"></a>
+
+            <ul id="menu-nav">
+                <li class="menu"><a href="./html/login.html" style="text-decoration: none; color: white;">Iniciar Sessión</a></li>
+                <li class="menu"><a href="./html/contacto.html" style="text-decoration: none; color: white;">Contactanos</a></li>
+                <li class="menu"><a href="#" style="text-decoration: none; color: white;">Organigrama</a></li>
+            </ul>
             <label class="switch">
                 <input type="checkbox" id="deslizador" checked>
                 <span class="deslizador"></span>
@@ -59,16 +65,18 @@
             
             <div id="Paginas">
                 <p>Aqui tenemos algunas de nuestras paginas web:</p>
-                <a href="./html/"><img src="./img/Ejemplo pagina web.png" alt=""></a>
+                <a href="./html/"><img src="./img/pagina-receptes.png" alt="" width="800"></a>
+                <p><b>Página de Recetas</b></p>
             </div>
         </section>
         <span id="Derechos1">
             <img src="./img/Ratón Clickando.png" alt="Click" id="Derechos">
         </span>
     <footer>
-        <p>Derechos reservados a WebHelp - 2024©</p>
+        <p style="margin-left: 10px;">Derechos reservados a WebHelp - 2024©</p>
         <a href="./index.html"><img src="./img/Logo A1.png" alt="Logo WebHelp" class="Logo"></a>
-        <a href="#">Tus derechos</a>
+        <p style="margin-right: 10px;">Localidad: Granollers, Carrer de Sant Jaume, 10, 14</p>
     </footer>
+    
     </body>
 </html>
