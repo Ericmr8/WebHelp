@@ -1,43 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <link rel="icon" href="../img/icon.png">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css" type="text/css">
-    <title>Receptes Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebHelp</title>
+    <link href="./WebHelp/css/css - WebHelp.css" rel="stylesheet">
+    <script src="./WebHelp/js/js.js" type="text/javascript" defer></script>
+    <script src="./Fondo-Quienes-Somos.js"></script>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<header>
-    
-</header>
+
 <body>
-    <div id="contenedor">
-<main>
-    <div id="cabezal">
-    <h1 id="titulo">Receptes Web</h1>
+    <header>
+        <div id="Caja-borrosa">
+            <a href="./index.html" id="Pagina-Inicial"><img src="./WebHelp/img/Logo A1.png" alt="Logo WebHelp" class="Logo"></a>
+
+            <ul id="menu-nav">
+                <li class="menu"><a href="./WebHelp/html/login.html" style="text-decoration: none; color: white;">Iniciar Sessión</a></li>
+                <li class="menu"><a href="./WebHelp/html/contacto.html" style="text-decoration: none; color: white;">Contactanos</a></li>
+                <li class="menu"><a href="#" style="text-decoration: none; color: white;">Organigrama</a></li>
+            </ul>
+            <label class="switch">
+                <input type="checkbox" id="deslizador" checked>
+                <span class="deslizador"></span>
+            </label>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Quienes somos?</h2>
+            <article>
+                <div id="QuienesSomos">
+                    <p id="Texto-Quienes">Nosotros somos una empresa para tu ayuda, nos dedicamos a hacer paginas web para que no las tengas
+                        que hacer, puedes describirnosla como te apetezca que va a aparecer como deseas o puedes dejarnos
+                        libre albedrio y pensamos en como puede ser la pagina para recaudar clientes siendo atractiva y
+                        sencilla de entender para el usuario.</p>
+                </div>
+            </article>
+        </section>   
+        <aside>
+            <div id="Lado">
+                <h4 id="Contactanos">Contactanos: </h4>
+
+                <div id="Numero">
+                    <div id="Tel">
+                        <img src="./WebHelp/img/Telefono.png" alt="Telefono" class="Contactos">
+                        <p><b>+34 1234 56 78</b></p>
+                    </div>
+                    <div id="Ins">
+                        <img src="./WebHelp/img/Insta logo.png" alt="Instagram" class="Contactos">
+                        <p><b>WebHelp-Dessigns</b></p>
+                    </div>
+                </div>
+                <hr id="hr">
+            </div>
+        </aside>   
+    </main>
+            <section>
+            
+            <div id="Paginas">
+                <p>Aqui tenemos algunas de nuestras paginas web:</p>
+                <a href="#"><img src="./WebHelp/img/pagina-receptes.png" alt="" width="800"></a>
+                <p><b>Página de Recetas</b></p>
+            </div>
+        </section>
+        <span id="Derechos1">
+            <img src="./WebHelp/img/Ratón Clickando.png" alt="Click" id="Derechos">
+        </span>
+    <footer>
+        <p style="margin-left: 10px;">Derechos reservados a WebHelp - 2024©</p>
+        <a href="/index.html"><img src="./WebHelp/img/Logo A1.png" alt="Logo WebHelp" class="Logo"></a>
+        <p style="margin-right: 10px;">Localidad: Granollers, Carrer de Sant Jaume, 10, 14</p>
+    </footer>
     
-        <ul>
-            <li><a href="#">Millor Valorades</a></li>
-            <li><a href="#">Més Recents</a></li>
-            <li><a href="#">Inicia Sessió</a></li>
-        </ul>
-    </div>
-    <section>
-        <article id="article1">
-            <a href="#"><img src="./img/amanida.jpg" width="300"></a>
-            <h2>Amanides</h2>
-        </article>
-        <article id="article2">
-            <a href="#"><img src="./img/postres.jpg" width="300"></a>
-            <h2>Postres</h2>
-        </article>
-        <article id="article3">
-            <a href="#"><img src="./img/pasta.jpeg" width="300"></a>
-            <h2>Pastes</h2>
-        </article>
-    </section>
-</main>
-    </div>
-</body>
+    </body>
 </html>
