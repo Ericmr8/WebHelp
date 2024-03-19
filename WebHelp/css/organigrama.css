@@ -1,0 +1,231 @@
+[data-theme="light"] {
+    --primary: #000;
+    --background: #fff;
+    --text: #2c2c2c;
+}
+
+[data-theme="dark"] {
+    --primary: #000;
+    --background: #2c2c2c;
+    --text: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--background);
+    font-family: "Outfit"; 
+    font-size: 22px;
+
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    margin-left: 2em;
+}
+
+header {
+    background-color: var(--primary);
+    background-size: 1400px 185px;
+    position: static;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+
+button {
+    background-color: var(--primary);
+    padding: 10px;
+    border: none;
+    font-family: 'Roboto Serif', serif;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    margin: 1em
+}
+
+section {
+    width: 80%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-items: start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1em 0 1em 0;
+    font-size: 16px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+#Caja-borrosa {
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.Logo {
+    width: 5em;
+    border: 0;
+    height: 4em;
+    margin-left: 1em;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#Pagina-Inicial :hover {
+    -webkit-box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 20px 24px rgba(255,255,255,1);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.deslizador {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    -webkit-transition: .9s;
+    transition: 1s;
+    border-radius: 46px;
+    border: 3px solid white;
+}
+  
+.deslizador:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 1px;
+    bottom: 1px;
+    background-color: var(--primary);
+    -webkit-transition: .4s;
+    transition: .9s;
+    border-radius: 56px;
+}
+
+#QuienesSomos {
+    display: table;
+    align-items: flex-start;
+}
+
+#Lado {
+    margin-left: 2em;
+}
+
+#Numero {
+    margin: 0;
+    height: 250px;
+}
+
+.Contactos {
+    width: 50px;
+}
+
+#Contactanos {
+    display: block;
+}
+#hr {
+    transform: rotate(90deg);
+    width: 13em;
+    position: relative;
+    border: 5px solid var(--text);
+    top: -7.13em;
+    left: -7.29em;
+}
+
+#Derechos1 {
+    position: relative;
+    top: 5em;
+    left: 57em;
+    height: 0px;
+}
+
+#Derechos {
+    display: inherit;
+    width: 3em;
+    position: relative;
+}
+
+header hr{
+    background-color: var(--background);
+    border: var(--text) solid 2px;
+}
+
+input:checked + .deslizador {
+    background-color: var(--background);
+}
+  
+input:checked + .deslizador:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+aside {
+    position: fixed;
+    left: 52em;
+}
+
+
+#Tel {
+    position: relative;
+    margin-top: 1em;
+}
+#Ins {
+    position: relative;
+    margin-top: 1em;
+}
+.menu{
+    display: inline;
+    color: white;
+    padding: 10px;
+    
+}
+#Organigrama1{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+#texto{
+    margin-left: 2em;
+
+}
