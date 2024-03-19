@@ -72,7 +72,6 @@ footer {
     color: white;
     padding: 1em 0 1em 0;
     font-size: 16px;
-    flex-wrap:var(3);flex-direction:row;
 }
 
 footer > a {
