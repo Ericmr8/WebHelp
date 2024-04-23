@@ -23,8 +23,13 @@ body {
 
 }
 
+h1 {
+    margin: 2%;
+}
 
-
+h2 {
+    margin-left: 2em;
+}
 
 header {
     background-color: var(--primary);
@@ -53,9 +58,17 @@ main {
     margin: 1em
 }
 
-section {
-    width: 80%;
+.foto{
+  margin-top: -1.5em;
+  
+  
+}
+#seccion{
+    width: 90%;
     height: auto;
+    display: flex;
+    justify-content: space-around;
+   
 }
 
 footer {
@@ -67,7 +80,6 @@ footer {
     color: white;
     padding: 1em 0 1em 0;
     font-size: 16px;
-    flex-wrap:var(3);flex-direction:row;
 }
 
 footer > a {
@@ -143,9 +155,6 @@ footer > a {
     display: table;
     align-items: flex-start;
 }
-#texto-Quienes{
-    margin: 2%;
-}
 
 #Lado {
     margin-left: 2em;
@@ -220,6 +229,14 @@ aside {
     padding: 10px;
     
 }
-#paginas{
-    margin-left: 10em;
+#Organigrama1{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+#texto{
+    margin-top: -23%;
+    margin-left: 2em;
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
