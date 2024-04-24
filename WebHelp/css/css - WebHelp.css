@@ -220,6 +220,16 @@ aside {
     padding: 10px;
     
 }
-#paginas{
+#Paginas{
     margin-left: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pagina {
+    margin: 1rem;
+    padding: 2rem;
+    border: var(--text) 5px solid;
+    border-radius: 1rem;
 }
