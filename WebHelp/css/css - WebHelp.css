@@ -23,9 +23,6 @@ body {
 
 }
 
-
-
-
 header {
     background-color: var(--primary);
     background-size: 1400px 185px;
@@ -51,11 +48,6 @@ main {
     position: relative;
     display: flex;
     margin: 1em
-}
-
-section {
-    width: 80%;
-    height: auto;
 }
 
 footer {

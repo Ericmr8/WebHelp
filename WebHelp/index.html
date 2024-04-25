@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebHelp</title>
-    <link href="./WebHelp/css/css - WebHelp.css" rel="stylesheet">
-    <script src="./WebHelp/js/js.js" type="text/javascript" defer></script>
-    <script src="./Fondo-Quienes-Somos.js"></script>
-    <link rel="icon" href="./WebHelp/img/icono.ico" type="image/x-icon" />
+    <link href="./css/css - WebHelp.css" rel="stylesheet">
+    <script src="./js/js.js" type="text/javascript" defer></script>
+    <link rel="icon" href="./img/icono.ico" type="image/x-icon" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,16 +17,18 @@
 <body>
     <header>
         <div id="Caja-borrosa">
-            <a href="./index.html" id="Pagina-Inicial"><img src="./WebHelp/img/Logo A1.png" alt="Logo WebHelp"
+            <a href="./index.html" id="Pagina-Inicial"><img src="./img/Logo A1.png" alt="Logo WebHelp"
                     class="Logo"></a>
 
             <ul id="menu-nav">
-                <li class="menu"><a href="./WebHelp/html/login.html"
+                <li class="menu"><a href="./html/login.html"
                         style="text-decoration: none; color: white;">Iniciar Sesión</a></li>
-                <li class="menu"><a href="./WebHelp/html/contacto.html"
+                <li class="menu"><a href="./html/contacto.html"
                         style="text-decoration: none; color: white;">Contáctanos</a></li>
-                <li class="menu"><a href="./WebHelp/html/organigrama.html"
+                <li class="menu"><a href="./html/organigrama.html"
                         style="text-decoration: none; color: white;">Organigrama</a></li>
+                <li class="menu"><a href="./html/que hacemos.html"
+                        style="text-decoration: none; color: white;">¿Qué Hacemos?</a></li>
             </ul>
             <label class="switch">
                 <input type="checkbox" id="deslizador" checked>
@@ -38,7 +39,7 @@
     </header>
     <main>
         <section>
-            <h1 style="line-height: 1.75em; color: black; font-size:40px;">¿Quienes somos?</h1>
+            <h1 style="line-height: 1.75em; font-size:40px;">¿Quienes somos?</h1>
             <article>
                 <div id="QuienesSomos">
                     <p id="Texto-Quienes">Nosotros somos una empresa para tu ayuda, nos dedicamos a hacer páginas web
@@ -52,21 +53,18 @@
         </section>
 
     </main>
-    <p style="margin: 2%;"><b> Aquí tenemos algunas de nuestras páginas web:</b></p>
-    <section id="Paginas">
-
-        <div class="Pagina">
-            <p style="margin-left: 2%; line-height: 1.75em;"><b>Página de Recetas</b></p>
-            <a href="./WebHelp/html/explicació receptasweb.html"><img src="./WebHelp/img/pagina-receptes.png" alt=""
-                    width="500" style="margin-left: 2%;"></a>
-        
-        </div>     
-        <div class="Pagina">
-
-            <p style="margin-left: 2%; line-height: 1.75em;"><b>Página de Musica</b></p>
-            <a href="./WebHelp/html/Musica/index.html"><img src="./WebHelp/img/Web Musica/GetMood.png" alt=""
-                    width="500" style="margin-left: 2%;"></a>
-
+    <section>
+        <p style="margin: 2%;"><b> Aquí tenemos algunas de nuestras páginas web:</b></p>
+        <div id="Paginas">
+            
+            <p style="margin-left: 2%; line-height: 1.75em;"><b>Página de Recetas</b>
+            <a href="./html/explicació receptasweb.html"><img src="./img/pagina-receptes.png" alt=""
+                    width="500" style="margin-left: 2%;"></a><br><br></p>
+                <div id="web_musica">
+            <p style="margin-left: 2%; line-height: 1.75em;"><b>Página de Musica</b>
+            <a href="./html/Musica/index.html"><img src="./img/Web Musica/GetMood.png" alt=""
+                    width="500" style="margin-left: 2%;"></a></p>
+                </div>
         </div>
         <br>
     </section>
@@ -75,9 +73,8 @@
     </span>
     <footer>
         <p style="margin-left: 10px;">Derechos reservados a WebHelp - 2024©</p>
-        <a href="./index.html"><img src="./WebHelp/img/Logo A1.png" alt="Logo WebHelp" class="Logo"></a>
-        <p style="margin-right: 10px;">Localidad: Granollers, Carrer de Sant Jaume, 10, 14<br><br> Teléfono: 938 24 24
-            57</p>
+        <a href="./index.html"><img src="./img/Logo A1.png" alt="Logo WebHelp" class="Logo"></a>
+        <p style="margin-right: 10px;">Localidad: Granollers, Carrer de Sant Jaume, 10, 14<br><br> Teléfono: 938 24 24 57</p>
 
     </footer>
 
