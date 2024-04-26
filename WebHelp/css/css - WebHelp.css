@@ -61,11 +61,6 @@ footer {
     flex-wrap:var(3);flex-direction:row;
 }
 
-footer > a {
-    color: white;
-    text-decoration: none;
-}
-
 #Caja-borrosa {
     backdrop-filter: blur(3px);
     display: flex;
@@ -111,10 +106,9 @@ footer > a {
     right: 0;
     bottom: 0;
     background-color: var(--background);
-    -webkit-transition: .9s;
     transition: 1s;
     border-radius: 46px;
-    border: 3px solid white;
+    border: 3px solid var(--text);
 }
   
 .deslizador:before {
@@ -125,12 +119,11 @@ footer > a {
     left: 1px;
     bottom: 1px;
     background-color: var(--primary);
-    -webkit-transition: .4s;
-    transition: .9s;
+    transition: 1s;
     border-radius: 56px;
 }
 
-#QuienesSomos {
+.QuienesSomos {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -195,8 +188,8 @@ aside {
     display: inline;
     color: white;
     padding: 10px;
-    
 }
+
 #Paginas{
     display: flex;
     align-items: center;
@@ -252,7 +245,17 @@ p > .Pagina {
     top: 20px;
 }
 
-#ofrecemos {
+.ofrecemos {
     margin: 3rem;
     margin-left: 0;
+}
+
+#Hosting {
+    width: 20rem;
+    margin: 3rem;
+    margin-left: 1rem;
+}
+
+.explicacion {
+    padding-left: 5rem;
 }
