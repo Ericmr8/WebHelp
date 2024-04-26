@@ -20,7 +20,6 @@ body {
     background-color: var(--background);
     font-family: "Outfit"; 
     font-size: 22px;
-
 }
 
 header {
@@ -132,29 +131,15 @@ footer > a {
 }
 
 #QuienesSomos {
-    display: table;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5rem;
 }
 #texto-Quienes{
     margin: 2%;
 }
 
-#Lado {
-    margin-left: 2em;
-}
-
-#Numero {
-    margin: 0;
-    height: 250px;
-}
-
-.Contactos {
-    width: 50px;
-}
-
-#Contactanos {
-    display: block;
-}
 #hr {
     transform: rotate(90deg);
     width: 13em;
@@ -213,15 +198,61 @@ aside {
     
 }
 #Paginas{
-    margin-left: 10em;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
+p > .Pagina {
+    margin: 0;
+ }
+
 .Pagina {
-    margin: 1rem;
-    padding: 2rem;
-    border: var(--text) 5px solid;
-    border-radius: 1rem;
+    border: var(--text) 2px solid;
+    border-radius: 3px;
+    background-color: var(--background);
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#Paginas :hover {
+    background-color: var(--text);
+    color: var(--background);
+}
+
+#block {
+    display: block;
+}
+
+#anuncio {
+    display: flex;
+    justify-content: space-around;
+}
+#columna {
+    display: flex;
+    flex-direction: column;
+}
+
+.anuncios {
+    width: 15rem;
+    height: 15rem;
+    margin: 5px;
+    position: relative;
+    left: 70px;
+}
+
+#tablet {
+    width: 35rem;
+    border-radius: 10px;
+    top: 20px;
+}
+
+#ofrecemos {
+    margin: 3rem;
+    margin-left: 0;
 }
