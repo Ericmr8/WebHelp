@@ -133,15 +133,6 @@ footer {
     margin: 2%;
 }
 
-#hr {
-    transform: rotate(90deg);
-    width: 13em;
-    position: relative;
-    border: 5px solid var(--text);
-    top: -7.13em;
-    left: -7.29em;
-}
-
 #Derechos1 {
     position: relative;
     top: 5em;
@@ -258,4 +249,19 @@ p > .Pagina {
 
 .explicacion {
     padding-left: 5rem;
+    
+}
+
+.pie-de-pagina {
+    display: flex;
+    justify-items: start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1em 0 1em 0;
+    font-size: 16px;
+    flex-wrap:var(3);flex-direction:row;
+    position: relative;
+    top: 152px;
 }
