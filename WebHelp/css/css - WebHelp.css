@@ -1,13 +1,17 @@
 [data-theme="light"] {
     --primary: #000;
     --background: #fff;
-    --text: #2c2c2c;
+    --text: #171717;
+    --extra: #b5b5b5;
+    --untext: #e3e3e3;
 }
 
 [data-theme="dark"] {
     --primary: #000;
-    --background: #2c2c2c;
+    --background: #171717;
     --text: #fff;
+    --extra: #82f28b;
+    --untext: #171717;
 }
 
 * {
@@ -105,10 +109,10 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--background);
+    background-color: black;
     transition: 1s;
     border-radius: 46px;
-    border: 3px solid var(--text);
+    border: 3px solid #82f28b;
 }
   
 .deslizador:before {
@@ -118,7 +122,7 @@ footer {
     width: 26px;
     left: 1px;
     bottom: 1px;
-    background-color: var(--primary);
+    background-color: var(--untext);
     transition: 1s;
     border-radius: 56px;
 }
@@ -161,7 +165,7 @@ header hr{
 }
 
 input:checked + .deslizador {
-    background-color: var(--background);
+    background-color: white;
 }
   
 input:checked + .deslizador:before {
@@ -214,8 +218,8 @@ p > .Pagina {
 }
 
 #Paginas :hover {
-    background-color: var(--text);
-    color: var(--background);
+    background-color: var(--extra);
+    color: var(--primary);
 }
 
 #block {
@@ -243,6 +247,9 @@ p > .Pagina {
     width: 35rem;
     border-radius: 10px;
     top: 20px;
+    position: relative;
+    left: 20em;
+    border: 6px solid var(--extra);
 }
 
 .ofrecemos {
@@ -256,6 +263,13 @@ p > .Pagina {
     margin-left: 1rem;
 }
 
-.explicacion {
-    padding-left: 5rem;
+#Portatil {
+    width: 40rem;
+    margin: 3rem;
+    border-radius: 10px;
+    border: 2px solid var(--text);
+}
+
+li {
+    list-style-type: circle;
 }
